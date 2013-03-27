@@ -3,7 +3,7 @@ import com.daveayan.croutons.DateProvider
 import com.daveayan.croutons.StringProvider
 
 object GiveMe {
-  def a_sentence_with_(number_of: Int) : StringProvider = {
+  def text_with_(number_of: Int) : StringProvider = {
     return new StringProvider(number_of)
   }
   

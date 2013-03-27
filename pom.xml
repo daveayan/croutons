@@ -114,6 +114,11 @@
 			<version>2.9.2</version>
 		</dependency>
 		<dependency>
+			<groupId>org.scalaj</groupId>
+			<artifactId>scalaj-time_2.9.2</artifactId>
+			<version>0.6</version>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
