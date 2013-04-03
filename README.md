@@ -27,3 +27,9 @@ From your java code one of the following methods can be used
 `GiveMe.a_date_in_next(4).years()`
 
 `GiveMe.a_date_in_next(4).years_except_weekend()`
+
+###### To get a random sentence
+
+`GiveMe.text_with_(1).lines()`
+
+`GiveMe.text_with_(2).lines()`
