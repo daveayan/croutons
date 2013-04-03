@@ -9,6 +9,17 @@ import junit.framework.Assert
 class GiveMeTest {
   
   @Test
+  def do_this() {
+    for(x <- 0 to 100) {
+      println (GiveMe.text_with_(1).lines())
+    }
+    println (GiveMe.text_with_(1).lines())
+    println (GiveMe.text_with_(2).lines())
+    println (GiveMe.text_with_(3).lines())
+    println (GiveMe.text_with_(4).lines())
+  }
+  
+  @Test
   def should_give_me_day_in_next_week() {
     val now: DateTime = DateTime.now
     
