@@ -20,6 +20,17 @@ class GiveMeTest {
   }
   
   @Test
+  def do_this_paragraph() {
+//    for(x <- 0 to 100) {
+//      println (GiveMe.text_with_(1).paragraphs())
+//    }
+    println (GiveMe.text_with_(1).paragraphs())
+    println (GiveMe.text_with_(2).paragraphs())
+    println (GiveMe.text_with_(3).paragraphs())
+    println (GiveMe.text_with_(4).paragraphs())
+  }
+  
+  @Test
   def should_give_me_day_in_next_week() {
     val now: DateTime = DateTime.now
     
