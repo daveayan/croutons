@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.daveayan</groupId>
 	<artifactId>croutons</artifactId>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.3</version>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
